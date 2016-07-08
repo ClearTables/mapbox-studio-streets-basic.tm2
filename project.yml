@@ -21,11 +21,11 @@ layers: null
 maxzoom: 19
 minzoom: 0
 name: Streets Classic
-source: "mapbox:///mapbox.mapbox-streets-v6"
+source: "tmsource:///home/pnorman/osm/ClearTables/mbs-compatible.tm2source"
 styles: 
   - vars.mss
   - bg.mss
-  - road.mss
-  - label.mss
-  - poi_classic.mss
+#  - road.mss
+#  - label.mss
+#  - poi_classic.mss
 template: ''

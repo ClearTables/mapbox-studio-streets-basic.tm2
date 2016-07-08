@@ -13,6 +13,7 @@ Map { background-color: @land; }
 // WATER AREAS
 // =====================================================================
 
+/*
 #water {
   polygon-fill: @water;
   polygon-gamma: 0.75;
@@ -200,7 +201,7 @@ Map { background-color: @land; }
     polygon-fill: @parking;
   }
 }
-
+*/
 
 // =====================================================================
 // BUILDINGS
@@ -210,7 +211,7 @@ Map { background-color: @land; }
   // We ease buildings in, making them less intense at lower zooms.
   // Outlines are added for the higher zoom levels only.
   [zoom=13] {  
-    polygon-fill:lighten(@building,4);
+    polygon-fill: red; //lighten(@building,4);
   }
   [zoom=14] {
     polygon-fill:lighten(@building,2);
@@ -227,7 +228,7 @@ Map { background-color: @land; }
   }
 }
 
-
+/*
 // =====================================================================
 // BARRIERS
 // =====================================================================
@@ -356,5 +357,5 @@ Map { background-color: @land; }
   }
 }
 
-
+*/
 /**/
